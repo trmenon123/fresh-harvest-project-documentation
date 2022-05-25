@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/freshHarvest-project-documentation/static/css/main.073c9b0a.css",
+    "main.js": "/freshHarvest-project-documentation/static/js/main.8e047942.js",
+    "static/js/787.93dd9e9a.chunk.js": "/freshHarvest-project-documentation/static/js/787.93dd9e9a.chunk.js",
+    "static/media/bck.jpg": "/freshHarvest-project-documentation/static/media/bck.df1825995fe975191a03.jpg",
+    "static/media/trmProfile.jpg": "/freshHarvest-project-documentation/static/media/trmProfile.7f1f4af976cb8cf918bc.jpg",
+    "static/media/nodejs.png": "/freshHarvest-project-documentation/static/media/nodejs.cd2e4ddae6890ee0ea29.png",
+    "static/media/reactjs.png": "/freshHarvest-project-documentation/static/media/reactjs.60daf01b68943de8bf7f.png",
+    "index.html": "/freshHarvest-project-documentation/index.html",
+    "main.073c9b0a.css.map": "/freshHarvest-project-documentation/static/css/main.073c9b0a.css.map",
+    "main.8e047942.js.map": "/freshHarvest-project-documentation/static/js/main.8e047942.js.map",
+    "787.93dd9e9a.chunk.js.map": "/freshHarvest-project-documentation/static/js/787.93dd9e9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8e047942.js"
+  ]
+}
