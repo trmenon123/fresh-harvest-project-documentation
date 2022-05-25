@@ -1,0 +1,107 @@
+{
+    "routes": [
+        {
+            "id": 1, 
+            "name": "profile", 
+            "display": "PROFILE", 
+            "route": "/docs/profile"
+        },
+        {
+            "id": 2, 
+            "name": "launch", 
+            "display": "LAUNCH", 
+            "route": "/docs/launch"
+        }
+    ],
+    "profile": [
+        {
+            "key": "CONTENT#1",
+            "data": "In a planet ravaged by the Covid-19 epidemic, demand for safe and healthy food is now on the rise, making it an ideal time to seize a win-win scenario for farmers, buyers, and the environment. Harvest of mass production systems undergo adulteration in process as a part of cost-cutting that eventually results in products of compromised quality impacting public health." 
+        },
+        {
+            "key": "CONTENT#2",
+            "data": "Changes have also occurred in the local food chain. Despite the fact that many farmers have faced hardships as a result of restaurant and market shutdown or prohibitions, there is undeniably an increasing demand for fresh items from local sources. Consider developing a buying or selling organic food ecommerce marketplace for farmers and suppliers to enable local producers to interact directly with customers or restaurants (Business to Business agriculture marketplace)." 
+        },
+        {
+            "key": "CONTENT#3",
+            "data": "During the epidemic, many farmers chose to go digital to overcome challenges and improve their businesses using e-commerce app development technocrats. This project is envisioned for the producers who have decided to go online in order to increase sales volume. This blog covers everything an entrepreneur (who may or may not be a farmer) needs to know about creating an online producers’ marketplace, from the business concept to the must-have elements." 
+        },
+        {
+            "key": "CONTENT#4",
+            "data": "It certainly serves as an inspiring movement for the public to ascertain the impending need to consume quality food products and be a part of a communal nexus that produces quality food products, interact with the farmers and pave the way for a healthier way of life. With the monetary benefits of food products going straight to the farmers it also provides a front for the farmers to stay motivated in being integral elements that supply healthy food products to the mass of consumers. This not only promotes a healthy age but also provides support to farmers." 
+        }
+    ],
+    "integration":{
+        "backend": {
+            "label": "Backend Express Server",
+            "information": "The backend server is implemented using NodeJS Express framework and offers JSON web tokens to authenticate server requests. The architecture follows Model Controller Services pattern",
+            "dependencyList": [
+                {"key": "backend-dependency-1", "value": "bcrypt"},
+                {"key": "backend-dependency-2", "value": "body-parser"},
+                {"key": "backend-dependency-3", "value": "config"},
+                {"key": "backend-dependency-4", "value": "cookie-parser"},
+                {"key": "backend-dependency-5", "value": "cors"},
+                {"key": "backend-dependency-6", "value": "express"},
+                {"key": "backend-dependency-7", "value": "express-jwt"},
+                {"key": "backend-dependency-8", "value": "ffmetadata"},
+                {"key": "backend-dependency-9", "value": "jsonwebtoken"},
+                {"key": "backend-dependency-10", "value": "mongoose"},
+                {"key": "backend-dependency-11", "value": "multer"},
+                {"key": "backend-dependency-12", "value": "nodemon"},
+                {"key": "backend-dependency-13", "value": "uuid"}
+            ],
+            "repoList":[{
+                "key": "git-repo-be-1", 
+                "name":"Backend Express Server",
+                "repo": "https://github.com/trmenon123/fresh-harvest-backend"
+            }]
+        },
+        "frontend": {
+            "label": "Frontend React App",
+            "information": "The Frontend is implemented using React Framerwork, employing micro-front-end architecture. Micro-Front-ends are abstracted based on the roles of the user, that are Admin(Master Controller), Farmers (Identified as the producers of surplus commodities) and Consumers (Identified as the end-users/ consumers of the commodities.",
+            "dependencyList": [
+                {"key": "frontend-dependency-1", "value": "@emotion/react"},
+                {"key": "frontend-dependency-2", "value": "@emotion/styled"},
+                {"key": "frontend-dependency-3", "value": "@mui/core"},
+                {"key": "frontend-dependency-4", "value": "@mui/icons-material"},
+                {"key": "frontend-dependency-5", "value": "@mui/lab"},
+                {"key": "frontend-dependency-6", "value": "@mui/material"},
+                {"key": "frontend-dependency-7", "value": "@mui/styled-engine-sc"},
+                {"key": "frontend-dependency-8", "value": "@mui/styles"},
+                {"key": "frontend-dependency-9", "value": "@testing-library/jest-dom"},
+                {"key": "frontend-dependency-10", "value": "@testing-library/react"},
+                {"key": "frontend-dependency-11", "value": "@testing-library/user-event"},
+                {"key": "frontend-dependency-12", "value": "babel-plugin-macros"},
+                {"key": "frontend-dependency-13", "value": "date-fns"},
+                {"key": "frontend-dependency-14", "value": "js-cookie"},
+                {"key": "frontend-dependency-15", "value": "moment"},
+                {"key": "frontend-dependency-16", "value": "react"},
+                {"key": "frontend-dependency-17", "value": "react-bootstrap"},
+                {"key": "frontend-dependency-18", "value": "react-dom"},
+                {"key": "frontend-dependency-19", "value": "react-router-dom"},
+                {"key": "frontend-dependency-20", "value": "react-scripts"},
+                {"key": "frontend-dependency-21", "value": "rxjs"},
+                {"key": "frontend-dependency-22", "value": "styled-components"},
+                {"key": "frontend-dependency-23", "value": "uuid"},
+                {"key": "frontend-dependency-24", "value": "web-vitals"}
+            ],
+            "repoList":[
+                {
+                    "key": "git-repo-fe-1", 
+                    "name":"Frontend Micro-Frontend : Admin",
+                    "repo": "https://github.com/trmenon123/fresh-harvest-frontend-admin"
+                },
+                {
+                    "key": "git-repo-fe-2", 
+                    "name":"Frontend Micro-Frontend : Farmer",
+                    "repo": "https://github.com/trmenon123/fresh-harvest-frontend-farmer"
+                },
+                {
+                    "key": "git-repo-fe-3", 
+                    "name":"Frontend Micro-Frontend : Consumer",
+                    "repo": "https://github.com/trmenon123/fresh-harvest-frontend-consumer"
+                }
+            ]
+        }
+    }
+}
