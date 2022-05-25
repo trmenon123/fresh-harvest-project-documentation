@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fresh-harvest-project-documentation/static/css/main.073c9b0a.css",
-    "main.js": "/fresh-harvest-project-documentation/static/js/main.9b618844.js",
+    "main.js": "/fresh-harvest-project-documentation/static/js/main.268e8926.js",
     "static/js/787.93dd9e9a.chunk.js": "/fresh-harvest-project-documentation/static/js/787.93dd9e9a.chunk.js",
     "static/media/bck.jpg": "/fresh-harvest-project-documentation/static/media/bck.df1825995fe975191a03.jpg",
     "static/media/trmProfile.jpg": "/fresh-harvest-project-documentation/static/media/trmProfile.7f1f4af976cb8cf918bc.jpg",
@@ -9,11 +9,11 @@
     "static/media/reactjs.png": "/fresh-harvest-project-documentation/static/media/reactjs.60daf01b68943de8bf7f.png",
     "index.html": "/fresh-harvest-project-documentation/index.html",
     "main.073c9b0a.css.map": "/fresh-harvest-project-documentation/static/css/main.073c9b0a.css.map",
-    "main.9b618844.js.map": "/fresh-harvest-project-documentation/static/js/main.9b618844.js.map",
+    "main.268e8926.js.map": "/fresh-harvest-project-documentation/static/js/main.268e8926.js.map",
     "787.93dd9e9a.chunk.js.map": "/fresh-harvest-project-documentation/static/js/787.93dd9e9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9b618844.js"
+    "static/js/main.268e8926.js"
   ]
 }
