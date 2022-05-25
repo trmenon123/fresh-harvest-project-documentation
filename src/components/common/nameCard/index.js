@@ -5,6 +5,7 @@ import trmProfile from '../../../assets/trmProfile.jpg';
 
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
+import { deepOrange} from '@mui/material/colors';
 import Avatar from '@mui/material/Avatar';
 import Chip from '@mui/material/Chip';
 import Menu from '@mui/material/Menu';
@@ -42,9 +43,10 @@ const NameCard = ()=> {
                 color="inherit"
             >
                 <Avatar 
-                    alt="TRMENON" 
-                    src={trmProfile}
-                />
+                    sx={{ bgcolor: deepOrange[500] }}
+                >
+                    TM
+                </Avatar>
             </IconButton>
 
             <Menu
@@ -58,16 +60,14 @@ const NameCard = ()=> {
             >
                 <MenuItem>
                     <Chip
-                        avatar={<Avatar alt="trMenon" src={trmProfile} />}
-                        label="Tushar"
+                        avatar={<Avatar sx={{ bgcolor: deepOrange[500] }}>TM</Avatar>}
+                        label="Tushar Menon"
                         variant="outlined"
-                        sx={{width: '100%'}}
+                        color="warning"
                     />
                 </MenuItem>
                 <MenuItem 
-                    onClick = {()=> {
-                        handleClick("https://www.linkedin.com/in/tushar-menon-8314101b7/")
-                    }}
+                    onClick = {()=>{window.location='mailto: tushar.menon@trigyn.com'}}
                 >
                     <ListItemIcon><EmailIcon fontSize="small" /></ListItemIcon>
                     <ListItemText>tushar.menon@trigyn.com</ListItemText>
